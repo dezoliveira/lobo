@@ -1,7 +1,6 @@
 const btnRegister = document.getElementById("btnRegister")
 
 const validateForm = () => {
-  alert('cu')
   const password = document.getElementById("password")
   const confirmPassword = document.getElementById("confirmPassword")
 
@@ -12,6 +11,6 @@ const validateForm = () => {
   return true
 }
 
-btnRegister.addEventListener('click', () => {
-  validateForm()
-})
+// btnRegister.addEventListener('click', () => {
+//   validateForm()
+// })

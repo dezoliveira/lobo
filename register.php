@@ -12,16 +12,16 @@
 </head>
 <body>
   <main>
-    <div class="login-form">
+    <div class="login-form" onsubmit="return validateForm()">
       <form>
         <div class="logo">
           <img src="public/images/lobo.png" />
         </div>
-        <input id="name" type="text" name="name" placeholder="Nome" />
-        <input id="email" type="email" name="email" placeholder="Email" />
-        <input id="password" type="password" name="password" placeholder="Senha" />
-        <input id="confirmPassword" type="confirmPassword" name="confirmPassword" placeholder="Confimar Senha"/>
-        <button style="width:100%" id="btnRegister">CRIAR CONTA</button>
+        <input id="name" type="text" name="name" placeholder="Nome" required/>
+        <input id="email" type="email" name="email" placeholder="Email" required/>
+        <input id="password" type="password" name="password" placeholder="Senha" required/>
+        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Confimar Senha" required/>
+        <button id="btnRegister">CRIAR CONTA</button>
         <span>
           <small>Já tem uma conta ? <a href="login.php">clique aqui</a></small>
         </span>
