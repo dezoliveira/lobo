@@ -4,7 +4,7 @@ const validateForm = () => {
   const password = document.getElementById("password")
   const confirmPassword = document.getElementById("confirmPassword")
 
-  if (password.value !== confirmPassword){
+  if (password.value !== confirmPassword.value){
     return false
   }
 
