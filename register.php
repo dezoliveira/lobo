@@ -12,7 +12,7 @@
 <body>
   <main>
     <div class="login-form">
-      <form >
+      <form>
         <div class="logo">
           <img src="public/images/lobo.png" />
         </div>
