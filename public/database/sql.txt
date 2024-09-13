@@ -3,7 +3,7 @@ CREATE TABLE login (
 	name VARCHAR(255) NOT NULL,
 	email VARCHAR(255) NOT NULL,
 	password VARCHAR(8) NOT NULL,
-	type VARCHAR(255) NOT NULL,
+	type VARCHAR(255) NOT NULL DEFAULT 'user',
 	created_At DATETIME,
 	updated_At DATETIME,
 	logged_At DATETIME

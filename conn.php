@@ -15,10 +15,10 @@
     if (!$conn){
       throw new Exception('Unable to connect');
       
-    } else {
-      echo "Connected";
-      header("Location:login.php");
-      exit;
+    // } else {
+    //   echo "Connected";
+    //   header("Location:login.php");
+    //   exit;
     }
   } catch (Exception $e) {
     echo $e->getMessage();
