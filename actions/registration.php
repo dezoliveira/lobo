@@ -28,6 +28,6 @@ if (!$results) {
 
 }
 
-  echo'<script> window.location="../messages/register_success.php"; </script> ';
+  echo'<script> window.location="../messages/success.php"; </script> ';
 
 ?>

@@ -1,7 +1,4 @@
-* {
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
+@import './main.css';
 
 body {
   margin: 0;
