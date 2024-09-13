@@ -1,6 +1,8 @@
 [InternetShortcut]
-URL=http://localhost/lobo/register.php
+URL=http://localhost/lobo/pages/auth/register.php
 IconIndex=0
 HotKey=0
 IDList=
 IconFile=C:\Users\etiquetas.lba\Desktop\ANDRES\icon.ico
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
