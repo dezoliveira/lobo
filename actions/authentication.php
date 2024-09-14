@@ -25,6 +25,13 @@ if (!($emailValid and $passwordValid)) {
 $query = "UPDATE login SET logged_At = '$date' WHERE email = '$email' ";
 mysqli_query($conn, $query);
 
+$query = "SELECT name FROM login WHERE email = '$email' ";
+$results = mysqli_query($conn, $query);
+$username = $results->fetch_row()[0];
+
+session_start();
+$_SESSION['username'] = $username;
+
 // if exists
 echo'<script> window.location="../pages/index.php"; </script> ';
 
