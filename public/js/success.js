@@ -1,6 +1,6 @@
 window.onload = () => {
   let countdown = document.getElementById("countdown")
-  let count = 3
+  let count = 4
 
   const timer = setInterval(() => {
     count--

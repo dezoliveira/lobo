@@ -12,18 +12,7 @@
 </head>
 <body>
   <main>
-    <div class="login-form">
-      <form method="post" action="../../actions/authentication.php" onsubmit="">
-        <div class="logo">
-          <img src="../../public/images/lobo.png" loading=lazy/>
-        </div>
-        <input id="email" type="email" name="email" placeholder="Email" required/>
-        <input id="password" type="password" name="password" placeholder="Senha" required/>
-        <button type="submit" id="btnLogin">ACESSAR</button>
-        <span>
-          <small>Não tem uma conta ? <a href="register.php">clique aqui</a></small>
-        </span>
-      </form>
+    <h1>index</h1>
   </main>
   <script src="../../public/js/register.js"></script>
 </body>
