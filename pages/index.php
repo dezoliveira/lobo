@@ -17,6 +17,9 @@
 </head>
 <body>
   <nav class="navbar">
+    <div class="logo">
+      <img src="../public/images/lobo.png" />
+    </div>
     <ul class="nav-items">
       <li class="nav-item">INICIO</li>
       <li class="nav-item">SERVIÇOS</li>
@@ -26,7 +29,7 @@
   </nav>
   <main>
     <div>
-      <p>Hello, <?= $username ?></p>
+      <p>Bem vindo de volta, <strong><?= $username ?></strong></p>
     </div>
   </main>
   <script src="../../public/js/register.js"></script>
