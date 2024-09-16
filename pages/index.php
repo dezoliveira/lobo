@@ -16,17 +16,9 @@
   <title>Lobo</title>
 </head>
 <body>
-  <nav class="navbar">
-    <div class="logo">
-      <img src="../public/images/lobo.png" />
-    </div>
-    <ul class="nav-items">
-      <li class="nav-item">INICIO</li>
-      <li class="nav-item">SERVIÇOS</li>
-      <li class="nav-item">CONFIGURAÇÕES</li>
-      <li class="nav-item">SAIR</li>
-    </ul>
-  </nav>
+  <!-- navbar -->
+  <?php require './templates/navbar.php'; ?>
+  <!-- navbar -->
   <main>
     <div>
       <p>Bem vindo de volta, <strong><?= $username ?></strong></p>
